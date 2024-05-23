@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "paths": {
+      "@mui/material": ["./node_modules/@mui/joy"]
+    },
     "lib": [
       "dom",
       "dom.iterable",
